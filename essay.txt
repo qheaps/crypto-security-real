@@ -1,0 +1,7 @@
+PART 2
+The letter `A` starts at 1, with every letter following being the previous letter multiplied by 2. A ~ is placed between characters? Special characters, including spaces, are denoted with double letters starting from `AA`.
+
+PART 3
+The Myspace data breach of 2013 lead to the leaking of roughly 360 million accounts. While the breach had occured in 2013 as the name suggests, users were not aware of the breach until 2016. The data that was leaked included user's emails and passwords, which likely went up for sale in less savory areas of the internet following the breach. The potential profit of selling both emails and passwords was likely the movtivation behind attack, which was alledgedly conducted by a Russian hacker, or hacking group, responsible for a number of other attacks.
+
+The source of the data breach was Myspace's practice of storing user passwords as unsalted, in addition to using an outdated encryption standard of SHA-1. This likely made it easier to brute force credentials, leading to the massive data breach. This same problem had lead to the LinkedIn breach, suggesting bad practices from their parent company, Microsoft. In addition to this, Myspace was also using flawed password recovery techniques which made it possible to gain access to any account if you knew the account's username, listed name, and date of birth. Following the breaches Myspace implemented double salting on all user passwords.
